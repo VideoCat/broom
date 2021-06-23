@@ -1,0 +1,8 @@
+body {
+  padding: 50px;
+}
+#container {
+  background-color: skyblue;
+  height: 300px;
+  text-align: center;
+}
