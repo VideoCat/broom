@@ -3,7 +3,7 @@ body {
 
 #container {
   background-color: skyblue;
-  height: 400px;
+  height: 300px;
   text-align: center;
 }
 #head {
@@ -22,6 +22,14 @@ body {
       }
   }
 }
+}
+body {
+  padding: 50px;
+}
+#container {
+  background-color: skyblue;
+  height: 400px;
+  text-align: center;
 }
 #broom {
   /* animation sub properties */
