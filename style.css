@@ -1,10 +1,27 @@
 body {
   padding: 50px;
-}
+
 #container {
   background-color: skyblue;
   height: 400px;
   text-align: center;
+}
+#head {
+  animation: fly 2s infinite;
+
+
+@keyframes fly {
+0% {
+  transform: translateY(20px);
+    }
+50% {
+  transform: translateY(60px);
+    }
+100% {
+  transform: translateX(20px):
+      }
+  }
+}
 }
 #broom {
   /* animation sub properties */
