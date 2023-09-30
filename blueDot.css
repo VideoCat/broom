@@ -1,0 +1,47 @@
+header {
+  text-align: center;
+  animation: drop 1s;
+}
+@keyframes drop {
+  from {
+    transform: translateY(-100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+#circle {
+  background-color: skyblue;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 100px auto;
+  animation: disappear 2s infinite alternate linear;
+}
+
+@keyframes disappear {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+p {
+  text-align: center;
+  animation: disappears 1s 5s forwards;
+}
+
+@keyframes disappears {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(1200px);
+  }
+}
